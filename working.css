@@ -1,0 +1,376 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+  ::before,
+        ::after{
+    box-sizing: inherit;        
+        }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 0;
+    margin-left: 0; 
+    height: 700px;
+
+}
+
+.gallery{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "amazing ramio"
+                         "mobile envelope";
+    grid-gap:0;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    height: 700px;
+    
+}
+
+.container{
+    position: relative;
+    width: 100%;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+
+}
+
+.container:hover .overlay{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.fashion{
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 2%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.stylish {
+font-weight: 100;
+font-size: 80%;
+font-family:"Satisfy", cursive;
+}
+
+.amazing{
+    grid-column: 1/2;
+    grid-row:1/2;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+  
+.containers{
+    position: relative;
+    width: 100%;  
+     
+}
+
+.overlays{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:black;
+}
+
+.containers:hover .overlays{
+   opacity: 1;
+   cursor: pointer;
+}
+
+.app{
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 2%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+}
+
+.mobile{
+    grid-column: 1/2;
+    grid-row:2/3;
+    width: 100%;
+    display: block;
+    margin-bottom: -0.3rem;
+    padding-bottom: 0rem;
+    
+}
+
+.creative{
+    font-weight: 100;
+    font-size: 80%;
+    font-family:"Satisfy", cursive; 
+}
+
+.containerz{
+    position: relative;
+    width: 100%;
+
+}
+
+.overlayz{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:black;
+}
+
+.containerz:hover .overlayz{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.web{
+    color: white;
+    font-weight:500;
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 2%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);   
+}
+
+.ink{
+    font-weight: 100;
+    font-size: 80%;
+    font-family:"Satisfy", cursive;
+
+}
+.ramio{
+    grid-column:2/3;
+    grid-row:1/2;
+    width: 100%;
+    height: auto;
+    display: block;
+
+
+}
+
+.creative{
+    font-weight: 100;
+    font-size: 80%;
+    font-family:"Satisfy", cursive;
+}
+
+.containerx{
+    position: relative;
+    width: 100%;
+}
+
+.overlayx{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:white;
+}
+
+
+.containerx:hover .overlayx{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.print{
+    color: black;
+    font-weight:500;
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 2%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);   
+}
+
+.gift{
+    font-weight: 100;
+    font-size: 80%;
+    font-family:"Satisfy", cursive;
+}
+
+.envelope{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
+article{
+    margin-top:0;
+    margin-left: 4rem;
+    margin-right: -0.5rem;
+    overflow: auto;
+    
+}
+
+
+.arrow{
+    border:3px solid black;
+    padding-top:0.8rem;
+    padding-bottom: 0.8rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    color: black;
+    margin-top: 6rem;
+    margin-left:0;
+}
+
+.arrow-left{
+   margin-top: 6rem;
+}
+
+.works{
+    margin-top: 4rem;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.team{
+    font-size: 2rem;
+    margin-top: -2rem;
+}
+
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.projects{
+    font-family:"Satisfy", cursive;
+    font-weight: 100;
+}
+
+.perception{
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+.flex{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 2.7rem;
+    margin-bottom: 2rem;
+}
+
+.flex li{
+    margin-right: 1.1rem;
+}
+
+.flex a{
+    filter: grayscale(1);
+    opacity: 0.3;
+}
+
+.flex a:hover{
+    color: black;
+    opacity: 1;
+    filter: grayscale(none);
+
+   
+}
+
+.patricia ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1.2rem;
+    margin-left:-2.5rem;
+    
+}
+
+.samwel ul{
+    list-style-type: none;
+    display: flex;
+    margin: 1rem;
+    margin-top: 1.2rem;
+    margin-left:-2.5rem;
+}
+
+
+.patricia{
+    flex-basis: 100%;
+}
+
+.samwel {
+    flex-basis: 100%;
+}
+
+.msthomas{
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.mrthomas{
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+.title{
+    font-family:"satisfy", cursive ;
+    font-size: 120%;
+    opacity: 0.8;
+    margin-top: -2rem;
+}
+
+.lorem{
+   margin-right: 2rem;
+   line-height: 1.5;
+
+}
+
+.ipsum{
+    line-height: 1.5;
+    margin-right: 2rem;
+}

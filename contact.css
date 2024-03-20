@@ -1,0 +1,185 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+::before,
+       ::after{
+    box-sizing: inherit;
+       }
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: white;
+    opacity: 0.9;
+
+}
+
+.googlemap{
+    position: relative;
+    padding-bottom: 100%;
+    
+}
+
+.googlemap iframe {
+    position:absolute;
+    height: 100%;
+    width:100%;
+    left: 0; 
+    right:0;
+    filter: grayscale(1);
+          
+
+}
+
+.article{
+    margin-left: 4rem;
+    margin-top: 4rem;
+  
+}
+
+.arrow{
+    border:3px solid black;
+    padding-top:1.3rem;
+    padding-bottom:0.8rem;
+    padding-left:0.8rem;
+    padding-right:0.8rem;
+    color: black;
+}
+
+.article [class*=fa-] { 
+    font-size: 150%;
+
+}
+
+.mainheading {
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.subheading{
+    margin-top: -1rem;
+    padding-top: 0;
+    padding-left: 0;
+}
+
+.office{
+    font-family: "Dancing Script";
+    font-size: 150%;
+    padding-left: 0.2rem;
+}
+
+
+  .bold{
+    font-weight: bold;
+  }
+
+  .information {
+    line-height: 1.5;
+    font-size: 117%;
+    margin-right: 2rem;
+  }
+
+  .addresses{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap:4rem;
+  grid-template-areas: "locality media"
+                        "calling mail";
+  margin-top: 2rem;
+  font-size: 96%;
+  margin-bottom: -1rem;
+  
+  }
+
+  .locality{
+  grid-area: locality;
+
+  }
+
+  .calling{
+    grid-area:calling;
+    margin-top: -4rem;
+    
+  }
+
+  .media{
+   grid-area: media;
+   margin-left: -2rem;
+  }
+
+  .mail{
+  grid-area: mail;
+  margin-top: -4rem;
+  margin-left: -2rem;
+  }
+
+  .location [class*=fa-]{
+    font-size: 108%;
+  }
+
+  .call  [class*=fa-]{
+    font-size: 108%;
+  }
+
+  .social [class*=fa-]{
+    font-size:118% ;
+  }
+
+  .pen [class*=fa-]{
+    font-size: 108%;
+
+  }
+
+   ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul li{
+    margin-top: 0.3rem;
+  }
+  
+  ul li a{
+    text-decoration: none;
+    color: black;
+  
+  }
+
+  .example {
+     text-decoration: none;
+     color: black;
+  }
+
+.york{
+    margin-top: -0.7rem;
+    margin-bottom: -0.8rem;
+}
+
+.line {
+    border: 3px solid black;
+    color: black;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: -2rem;
+    text-decoration: none;
+    margin-top: -9rem;
+    margin-bottom: 5.5rem;   
+    margin-right: 7rem;
+    font-weight: bold;
+}
+
+

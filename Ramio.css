@@ -1,0 +1,213 @@
+/*I decided to work with border-box model*/
+html{
+    box-sizing: border-box;
+    
+}
+
+*,
+ *::before,
+        *::after{
+    box-sizing:inherit;
+}
+body{
+     margin:0;
+     padding:0;
+     font-family: Arial, Helvetica, sans-serif;
+     background-color:white;
+     height: 680px;
+     width: 1284px;
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     grid-template-rows: repeat(2,1fr);
+     grid-gap:1rem;
+     grid-template-areas: "nav image"
+                           "article image"
+                           "footer image";
+}
+
+.brand{
+    font-family:Smooch;
+    font-size:250%;
+    line-height:2;
+    padding: 0;
+    margin-top: -2rem;
+    margin-right: 7rem;
+    margin-left: 2rem;
+}
+
+.smooch-regular {
+    font-family: "Smooch", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+   
+
+nav ul{
+    margin-top:4rem;
+    list-style-type:none;
+    display:flex;
+}
+
+nav li{
+       margin:0;
+       padding:0;
+    }
+
+
+nav a{
+      font-size: 1rem;
+      line-height:1.5;
+      margin: 1rem;
+      font-weight:bold;
+      padding:0;
+      color:black;
+      text-decoration: none;
+      opacity: 0.85;
+      
+}
+ 
+
+nav a:hover { 
+      color:black;
+      text-decoration:underline;
+      opacity: 1;
+
+}
+
+.nav{
+    grid-area:nav;
+}
+
+.about a{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.works a{
+    padding-top:1rem ;
+    padding-bottom: 1rem;
+}
+
+.contact a{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight:900;
+    font-style: normal;
+  }
+
+h2{ 
+    font-size: 4rem;
+    font-family: "Roboto", sans-serif;
+    line-height:1;
+    font-weight: bolder;
+}
+
+.figure{
+    grid-area: image ;
+    margin: 0;
+    padding-right:0;
+    
+    
+}
+
+.image{
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.container{
+    position: relative;
+    text-align: right;
+    color: white;
+}
+
+.launch{
+    position: absolute;
+    bottom: 54px;
+    right:10px;
+    font-weight:750;
+    font-size:3.5rem;
+}
+
+.days{
+    position: absolute;
+    bottom: 38px;
+    right:10px;
+    font-weight:bold;
+    word-spacing:2px;
+}
+
+.article{
+    grid-area:article;
+    margin-top: -35rem;
+    margin-left: 5rem;  
+}
+
+.suprise{
+   margin-top:-2rem;
+   line-height: 1.5;
+   opacity: 0.9;
+}
+
+.notification a { 
+  margin-top:1.5rem ;
+  padding-top: 1rem;
+  padding-bottom: 0.8rem;
+  padding-right: 4rem;
+  padding-left: 1.6rem;
+  font-size: 95%;
+  border: 2px solid black;
+  color:black;
+  display: inline-block;
+  opacity:0.8; 
+}
+
+
+article p a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  opacity:0.7;
+}
+
+.notify{
+  color: black;
+  opacity: 1;
+  font-weight: bold;
+}
+
+
+footer{
+    grid-area:footer;
+    margin-top:-6rem;
+    margin-bottom: 0;
+}
+
+footer ul{
+    display: flex;
+    margin-top: 1rem;
+    list-style-type:none;
+    text-decoration: none;
+    margin-left: 1rem;
+    filter: grayscale(1);
+    opacity:0.8;
+
+}
+
+footer ul a:hover{
+    opacity: 0.4;
+    
+}
+
+footer ul li {
+    margin:0.8rem;
+    
+}
+
+

@@ -1,0 +1,262 @@
+
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+  ::before,
+          ::after{
+    box-sizing: inherit;
+          }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:0;
+    margin-left:0;
+    margin-right:0;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr; 
+    height: 1100px;  
+    width:100%;   
+               
+                
+}
+
+.figure{
+    margin:0;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+   
+}
+
+.left-arrow {
+    border:3px solid black;
+    padding-top:0.8rem;
+    padding-bottom: 0.8rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    color: black;
+    margin-top: 2rem;
+    margin-left: 2rem;   
+
+}
+
+.arrow{
+    margin-top: 6rem;
+}
+
+article{
+    margin-left:-2.1rem;
+    margin-top:0;
+    margin-right: 0;
+    overflow: auto;
+    height: 1100px;
+}
+
+.about{
+    opacity: 0.8;
+    margin-top: 3.5rem;
+    margin-left: 2rem;
+    
+}
+
+.us{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 900;
+}
+
+.template{
+    font-family: "Satisfy", cursive;
+    font-size: 120%;
+    opacity: 0.8;
+
+
+}
+
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+   
+
+.awesome{
+    margin-top: -1.5rem;
+   
+}
+
+.para{
+    margin-top: -1rem;
+    margin-right: 6rem;
+    line-height: 1.7;
+    font-weight: 795;
+    opacity: 0.9;
+    
+}
+
+.para a {
+    color:black;
+}
+
+.alpha{
+ display: flex;
+
+}
+  
+.purpleimage{
+    order: 1;
+    flex-basis: 55%;
+    margin-left:-2.1rem;
+    margin-right: -2.1rem;
+    opacity: 0.8;
+
+}
+
+.eye{
+  order: 2;
+  flex-basis: 60%;
+  margin-left:2rem;
+  margin-bottom: 0.3rem;
+
+    
+}
+
+.catch {
+    font-weight: 800;
+    margin-top: 5rem;
+    margin-left: 6rem;
+    
+}
+
+.design{
+    margin-left:2rem;
+    
+}
+
+
+.have{
+    margin-top: 2rem;
+    align-items: center;
+    margin-bottom: 3rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    line-height: 1.5;
+}
+
+.beta{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.trendy{
+    order: 1;
+    margin-top: -0.3rem;
+    flex-basis: 88%;
+    margin-left: -2.1rem;
+    padding-left: 2rem;
+}
+
+.fonts{
+    font-weight: 800;
+    margin-top:5rem;
+    margin-left: 3rem;
+}
+
+.why{
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    line-height: 1.5;
+}
+
+.alphabet{
+    order: 2;
+    flex-basis: 100%;
+    margin-top: -0.2rem;
+   
+}
+
+.charlie{
+    display: flex;
+    flex-flow: row-reverse nowrap;
+}
+
+.cat{
+    order: 1;
+    margin-left: -2.1rem;
+    margin-top: -0.3rem;
+    flex-basis: 98%;
+
+}
+
+.smooth{
+    order: 2;
+}
+
+.sections{
+    font-weight: 800;
+    margin-left: 6rem;
+    margin-top: 5rem;
+    
+}
+
+.transitions{
+    margin-left: 2rem;
+
+}
+
+.fear{
+    margin-top: 2rem;
+    margin-left: 7.5rem;
+    margin-right: 6rem;
+    line-height: 1.5;
+}
+
+
+.delta {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.custom{
+    order: 1;
+    margin-left:-2.1rem;
+    margin-top: -0.3rem;
+    flex-basis: 50.5%;
+}
+
+.corn{
+    order:2;
+    flex-basis: 54%;
+    margin-top: -0.3rem;
+}
+
+.google{
+    margin-top: 5rem;
+    margin-left: 5rem;
+    font-weight: 800;
+}
+
+.tom{
+    margin-left: 2rem;
+
+}
+
+.personality{
+   margin-left: 7rem;
+   margin-right: 6rem;
+   line-height: 1.5;
+
+}
+
+.wonderland{
+  margin-left: -2.3rem;
+  margin-top: -0.3rem;
+}
+
