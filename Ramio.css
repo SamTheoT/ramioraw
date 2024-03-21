@@ -1,4 +1,5 @@
 /*I decided to work with border-box model*/
+@media only screen and (min-width:992px) {
 html{
     box-sizing: border-box;
     
@@ -209,5 +210,5 @@ footer ul li {
     margin:0.8rem;
     
 }
-
+}
 
