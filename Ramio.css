@@ -110,6 +110,7 @@ h2{
     grid-area: image ;
     margin: 0;
     padding-right:0;
+    height:100vh;
     
     
 }
