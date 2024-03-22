@@ -15,7 +15,7 @@ body{
      padding:0;
      font-family: Arial, Helvetica, sans-serif;
      background-color:white;
-     height: 100vh;
+     height: 10vh;
      min-width: 768px;
      display: grid;
      grid-template-columns: repeat(2,1fr);
